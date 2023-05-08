@@ -36,7 +36,7 @@ for i in range(1,3):
         except:
             chapter = "N/A"
 
-        if rating >= "4.8" and chapter != "N/A":
+        if rating >= "4.7" and chapter != "N/A":
 
             try:
                 img_url = img.get('src')
