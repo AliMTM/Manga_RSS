@@ -25,14 +25,11 @@ jobs:
 
     - name: Generate HTML file
       run: python generate_html.py
-    - name: Configure git
-      run: |
-        git config --global user.email "alimtmakki@gmail.com"
-        git config --global user.name "AliMTM"
-        
+
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: .
         TARGET_BRANCH: main
