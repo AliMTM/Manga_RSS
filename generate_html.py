@@ -6,7 +6,7 @@ import time
 
 manga_data = []
 
-for i in range(1,20):
+for i in range(1,3):
 
     if (i == 1):
         url = 'https://manganato.com/genre-all'
