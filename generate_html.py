@@ -6,7 +6,7 @@ import time
 
 manga_data = []
 
-for i in range(1,3):
+for i in range(1,20):
 
     if (i == 1):
         url = 'https://manganato.com/genre-all'
@@ -36,7 +36,7 @@ for i in range(1,3):
         except:
             chapter = "N/A"
 
-        if rating >= "4.7" and chapter != "N/A":
+        if rating >= "4.8" and chapter != "N/A":
 
             try:
                 img_url = img.get('src')
