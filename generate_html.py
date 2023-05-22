@@ -2,8 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-# send GET request to the website
-
 manga_data = []
 
 for i in range(1,20):
