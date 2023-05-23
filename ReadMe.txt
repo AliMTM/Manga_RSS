@@ -6,3 +6,5 @@ Once the manga is collected, the scraper generates an HTML page to represent the
 To use this scraper, simply run the script and the scraper will automatically gather and sort the manga based on the specified criteria. With this Manga Scraper, you can easily stay up-to-date with the latest and most popular manga releases!
 
 For now this will update only if it were activated manually.
+
+PS: still thinking of other activation methods.
