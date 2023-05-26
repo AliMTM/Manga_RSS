@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
+# manga list
 manga_data = []
 
 for i in range(1,20):
